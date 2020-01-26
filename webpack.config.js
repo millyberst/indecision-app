@@ -26,7 +26,9 @@ module.exports = (env) => {
                         },
                         {
                             loader: 'sass-loader',
-                            sourceMap: true
+                            options: {
+                                sourceMap: true
+                            }
                         }
                     ]
                 })
